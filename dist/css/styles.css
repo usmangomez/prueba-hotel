@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Helvetica;
+  color: #242424;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+h2 {
+  font-family: Verdana;
+  color: #1dc3b3;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main article section:nth-child(1) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 60%;
+          flex: 1 0 60%;
+  position: relative;
+}
+
+main article section:nth-child(1) img {
+  width: 100%;
+}
+
+main article section:nth-child(1) .btn-controls {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+main article section:nth-child(2) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
+  position: relative;
+  background-color: #eff3f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+main article section:nth-child(2) .btn-controls {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #1dc3b3;
+  color: white;
+}
+
+.btn-controls {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-controls:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.btn-links {
+  margin-top: 0.5rem;
+  padding: 0.5rem 2rem;
+  border: 2.5px solid #1dc3b3;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 1rem;
+  color: #1dc3b3;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-links:hover {
+  background-color: #1dc3b3;
+  color: white;
+}
+
+.button-promotion {
+  background-color: #1dc3b3;
+  color: white;
+}
+
+.button-promotion:hover {
+  background-color: transparent;
+  color: #1dc3b3;
+}
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  display: -ms-grid !important;
+  display: grid !important;
+}
+
+.owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.owl-dot {
+  background-color: #aedad7;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: none;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1dc3b3;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
